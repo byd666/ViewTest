@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewTest</string>
+    <string name="main_title">实现滑动的几种方法</string>
+    <string name="scrollToOrScrollBy">scrollTo/scrollBy</string>
+    <string name="animation">属性动画</string>
+    <string name="layoutParams">layoutParams</string>
+    <string name="scroller">Scroller</string>
+</resources>
