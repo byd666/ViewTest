@@ -5,4 +5,8 @@
     <string name="animation">属性动画</string>
     <string name="layoutParams">layoutParams</string>
     <string name="scroller">Scroller</string>
+    <string name="distouchevent">事件分发</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

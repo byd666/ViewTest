@@ -22,6 +22,8 @@ public class ViewTestActivity extends AppCompatActivity implements View.OnClickL
         findViewById(R.id.btn_animation).setOnClickListener(this);
         findViewById(R.id.btn_layoutParams).setOnClickListener(this);
         findViewById(R.id.btn_scroller).setOnClickListener(this);
+        findViewById(R.id.btn_view_touch).setOnClickListener(this);
+        findViewById(R.id.btn_activity_fragment).setOnClickListener(this);
     }
 
     @Override
@@ -43,6 +45,12 @@ public class ViewTestActivity extends AppCompatActivity implements View.OnClickL
                 //scroller
                 go2Activity(ScrollerActivity.class,v);
                 break;
+            case R.id.btn_view_touch:
+                //scroller
+                go2Activity(TouchActivity.class,v);
+                break;
+            case R.id.btn_activity_fragment:
+                go2Activity(Fragment1Activity.class,v);
             default:
                 break;
         }

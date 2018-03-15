@@ -19,7 +19,9 @@
         <activity android:name=".ScrollActivity" />
         <activity android:name=".AnimationActivity" />
         <activity android:name=".LayoutParamsActivity" />
-        <activity android:name=".ScrollerActivity"></activity>
+        <activity android:name=".ScrollerActivity" />
+        <activity android:name=".TouchActivity" />
+        <activity android:name=".Fragment1Activity"></activity>
     </application>
 
 </manifest>

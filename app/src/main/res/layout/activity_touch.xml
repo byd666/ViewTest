@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.TouchLayout
+    android:id="@+id/vg_b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/a"
+    tools:context="byd.com.byd.viewtest.TouchActivity">
+    <widget.TouchButton
+        android:id="@+id/btn_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是C"
+        android:background="@color/c"/>
+    <widget.TouchButton1
+            android:id="@+id/btn_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是C1"
+            android:background="@color/c"/>
+</widget.TouchLayout>

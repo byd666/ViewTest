@@ -41,5 +41,17 @@
             android:layout_marginTop="@dimen/dp_8"
             android:layout_height="@dimen/btn_height"
             android:text="@string/scroller"/>
+        <Button
+            android:id="@+id/btn_view_touch"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/distouchevent"/>
+        <Button
+            android:id="@+id/btn_activity_fragment"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_height="@dimen/btn_height"
+            android:text="生命周期探究"/>
     </LinearLayout>
 </ScrollView>

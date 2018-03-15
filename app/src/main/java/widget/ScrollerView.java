@@ -33,6 +33,7 @@ public class ScrollerView extends android.support.v7.widget.AppCompatTextView im
         this.setOnTouchListener(this);
         scroller=new Scroller(context);
     }
+
     private void smoothScrollTo(int dx,int dy){
         //获取开始滑动时的坐标
         int sX=this.getScrollX();
